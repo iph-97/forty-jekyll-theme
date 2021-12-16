@@ -3,8 +3,8 @@ title: Isabelle Hirschy
 subtitle: Personal Website
 email: izziehirschy@gmail.com
 description: A Chicago-based policy wonk searching to use tech<br /> to better support communities.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: iph-97.github.io # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://iph-97.github.io" # the base hostname & protocol for your site
 author: Izzie Hirschy
 street_address: 
 city: Chicago
