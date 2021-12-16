@@ -1,13 +1,11 @@
 ---
 layout: post
-title: Generic
-description: Lorem ipsum dolor est
+title: About Me
+description: 
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
 
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
+A born and bred Tar Heel, I studied Political Science at the University of North Carolina at Chapel Hill. During the summers, I worked for a nonprofit called the <a href="asphome.org">Appalachia Service Project</a>, where I coordinated emergency home repair services for families in Central Appalachia. We worked on the household level, solving structural problems for families that were generational victims of systemic neglect. I had a lot of trouble reconciling this experience of direct service provision with my formal education. Political Science had a distinct focus on the "big picture," which seemed to miss many of the nuances that affected my summer clients. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
-
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
+After graduation, I attempted to explore this intersection of service provision and systems thinking in my rural development job at the <a href="https://www.conservationfund.org/our-work/resourceful-communities">Conservation Fund</a>. While working there, I began to realize that residents interact with systems through the creation and implementation of public policy. Also, rural communities are poorly served by modern data collection and use practices, leaving them at the mercy of information problems. I followed these realizations all the way to Chicago, where I am currently getting my Master of Public Policy and the University of Chicago Harris School of Public Policy.  
