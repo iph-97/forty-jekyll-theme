@@ -16,4 +16,4 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-object data="{{ post.file_document_path }}" width="1000" height="1000" type='application/pdf'/>
+<object data="{{ post.Hirschy_Isabelle_Resume }}" width="1000" height="1000" type='application/pdf'/></object>
