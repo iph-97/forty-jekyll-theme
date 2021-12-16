@@ -11,6 +11,7 @@ city: Chicago
 state: IL
 zip_code: 60637
 country: United States of America
+phone:
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
