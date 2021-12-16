@@ -22,13 +22,14 @@ nav-menu: true
 	<li>Lack of clear standards for lots to meet before transfer to private ownership</li>
 		</ul>
 Our project attempts to address some of the information concerns plaguing vacant lot disposition in Chicago, particularly the lack of clear standards for transfer eligibility. Using the existing City-Owned Land Inventory, we created an index by which lots are "scored" on their candidacy for disposition and transformation into green space.</p>
-	</div>
-				<ul class="actions">
+	<ul class="actions">
 					<li><a href="https://github.com/iph-97/vacant_lots" class="button">View the Project</a></li>
 				</ul>
+	</div>
+"""
 <pre class="line-numbers">
    <code class="language-python">
-      import pandas as pd
+import pandas as pd
 from shapely.geometry import Point, MultiPolygon
 from shapely.ops import transform
 import geopandas as gpd
@@ -205,7 +206,7 @@ gdf["score"] = gdf.apply(find_candidates, axis=1)
 </code>
 </pre>
 </section>
-
+"""
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
