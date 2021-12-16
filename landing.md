@@ -23,6 +23,9 @@ nav-menu: true
 		</ul>
 Our project attempts to address some of the information concerns plaguing vacant lot disposition in Chicago, particularly the lack of clear standards for transfer eligibility. Using the existing City-Owned Land Inventory, we created an index by which lots are "scored" on their candidacy for disposition and transformation into green space.</p>
 	</div>
+				<ul class="actions">
+					<li><a href="https://github.com/iph-97/vacant_lots" class="button">View the Project</a></li>
+				</ul>
 <pre class="line-numbers">
    <code class="language-python">
       import pandas as pd
@@ -34,16 +37,11 @@ from pygeoif import geometry
 import os
 from shapely.geometry.multipoint import MultiPointAdapter
 from shapely.geometry.multipolygon import MultiPolygon
-import statsmodels.api as sm
-import statsmodels.formula.api as smf
 from sodapy import Socrata
 from shapely.geometry import shape
-from pandas.io.json import json_normalize
 import pyproj
-import seaborn as sns
 
 PATH =  os.path.abspath(os.getcwd())
-PATH = r"/Users/isabellehirschy/Documents/Harris/final-project-final-project-izzie-kashif-jason/"
 
 def api_get(fname):
     client = Socrata("data.cityofchicago.org", None)
@@ -182,59 +180,6 @@ def find_candidates(row):
     else:
         score = 0
     return score
-
-def make_shp(df, file_name, to_drop=["geometry_reproj", "projected_coord"]):
-    df = df[df["latitude"] != "0"]
-    df = proj_transform(df)
-    df["geometry"] = df["geometry_reproj"]
-    df = df.drop(to_drop, axis=1)
-    df.to_file(os.path.join(PATH,'shapefiles', file_name+'.shp'))
-    
-def make_shp_park_nbh(df, file_name, park=False):
-    if park == True:
-        if os.path.exists(os.path.join(PATH,'shapefiles','parks.shp')):
-            print("parks shapefile exists")
-        else:
-            df = df.drop(["centroid", "geometry_reproj"], axis=1)
-            df.to_file(os.path.join(PATH, 'shapefiles', file_name+'.shp'))
-    else:
-        df.to_file(os.path.join(PATH, 'shapefiles', file_name+'.shp'))
-
-def model_df(api_key1, csv, api_key2, crs):
-    lots = api_get(api_key1)
-    lots = gpd.GeoDataFrame(lots, geometry=gpd.points_from_xy(lots["longitude"], lots["latitude"]))
-    lots = lots.dropna(subset=["address", "location", ":@computed_region_rpca_8um6", "latitude", "longitude"])
-    lots = lots.set_crs(crs)
-    bf = pd.read_csv(os.path.join(PATH,csv))
-    bf['Coordinates'] = bf['Map Site CSV'].str.split('GEOSEARCH:').str[1]
-    bf[['latitude', 'longitude']] = bf.pop('Coordinates').str.split(' ', 1, expand=True)
-    bf = bf[bf.longitude != ""]
-    bf = bf[bf.latitude != ""]
-    bf = gpd.GeoDataFrame(bf, geometry=gpd.points_from_xy(bf["longitude"], bf["latitude"]))
-    bf = bf.set_crs(crs)
-    nbh = api_get(api_key2)
-    nbh = fix_geom(nbh)
-    nbh = gpd.GeoDataFrame(nbh, geometry=nbh["geometry"])
-    nbh = nbh.set_crs(crs)
-    bf_nbh = nbh.sjoin(bf, how='inner', predicate='intersects')
-    bf_nbh = bf_nbh.groupby(['pri_neigh']).size().reset_index(name='bf_count')
-    lots_nbh = nbh.sjoin(lots, how='inner', predicate='intersects')
-    lots_nbh = lots_nbh.groupby(['pri_neigh']).size().reset_index(name='lots_count')
-    df = lots_nbh.merge(bf_nbh, how ='left', on='pri_neigh')
-    df = df.fillna(0)
-    return df
-
-def reg(df):
-    results = smf.ols(formula = "lots_count ~ bf_count", data=df).fit()
-    return results
-
-def graph(df):
-    p  = sns.regplot(df['bf_count'], df['lots_count'])
-    p.set_ylabel('Number of Vacant Lots')
-    p.set_xlabel('Number of Brownfields')
-    p.set_title('Relationship between pollution and lots per neighborhood');
-    fig = p.get_figure()
-    return fig
     
 gdf = read_lots()
 gdf_park = read_park_nbh("ejsh-fztr", park=True)
@@ -257,13 +202,7 @@ gdf = find_eligibility(gdf, "zoning_classification", anlap, "ANLAP Eligible")
 gdf = find_eligibility(gdf, "zoning_classification", large_lots, "Large Lots Eligible")
 
 gdf["score"] = gdf.apply(find_candidates, axis=1)
-
-make_shp(gdf, "lots", to_drop="geometry_reproj")
-make_shp_park_nbh(gdf_park, "parks", park=True)
-make_shp(gdf_bus, "bus_stops")
-make_shp(gdf_el, "el_stops")
-make_shp(gdf_bf, "pollution")
-make_shp_park_nbh(gdf_nbh, "neighborhoods")
+</code>
 </pre>
 </section>
 
