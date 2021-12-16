@@ -26,9 +26,9 @@ Our project attempts to address some of the information concerns plaguing vacant
 					<li><a href="https://github.com/iph-97/vacant_lots" class="button">View the Project</a></li>
 				</ul>
 	</div>
+{::options parse_block_html="true" /}
+<details><summary markdown="span">Let's see some code!</summary>
 """
-<pre class="line-numbers">
-   <code class="language-python">
 import pandas as pd
 from shapely.geometry import Point, MultiPolygon
 from shapely.ops import transform
@@ -203,10 +203,13 @@ gdf = find_eligibility(gdf, "zoning_classification", anlap, "ANLAP Eligible")
 gdf = find_eligibility(gdf, "zoning_classification", large_lots, "Large Lots Eligible")
 
 gdf["score"] = gdf.apply(find_candidates, axis=1)
-</code>
-</pre>
-</section>
 """
+</details>
+<br/>
+{::options parse_block_html="false" /}
+	
+</section>
+
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
