@@ -225,69 +225,6 @@ gdf["score"] = gdf.apply(find_candidates, axis=1)
 					<li><a href="https://github.com/iph-97/vpr_budgets" class="button">View the Project</a></li>
 				</ul>
 			</div>
-	<details><summary markdown="span">View a Code Sample</summary>
-		<pre class="line-numbers">
-   		<code class="language-r">
-		ibrary(tidyverse)
-library(treemap)
-setwd("~/Documents")
-
-vpr <- read_csv("VPR_Budgets.csv")
-
-vpr_grouped <- vpr %>%
-  select(-Dept, -Delegates, - `Community Area`, -`Subdelegate Amount`, - Subdelegates) %>%
-  group_by(Unit) %>%
-  filter(Unit !="LA", 
-         Unit != "Federal",
-         Unit != "Illinois", 
-         Unit != "Maryland",
-         Unit != "State") %>%
-  mutate(Program = `Funding Categories†`) %>%
-  select(-`Funding Categories†`)
-
-vpr_unit_total_spend <- vpr %>% group_by(Unit) %>%
-  filter(Unit !="LA", 
-         Unit != "Federal",
-         Unit != "Illinois", 
-         Unit != "Maryland",
-         Unit != "State") %>%
-  summarise(total_spend = sum(`Total Amount`, na.rm = T))
-
-vpr_unit_total_spend %>% 
-  ggplot(aes(x = Unit, y = total_spend)) +
-  geom_bar(stat = "identity") +
-  theme(axis.text.x = element_text(angle=65, vjust=0.6)) +
-  labs(title = "Total Spending on Violence Reduction and Prevention (self-defined)")+
-  theme_minimal()
-
-chart <- function(category) {
-  png(str_c("chart", category, ".png", sep = ""))
-  
-  chart_data <- vpr_grouped %>%
-    mutate(category_spend = ifelse(Category == category, `Total Amount`, 0)) %>%
-    summarise(total_category_spend = sum(category_spend)) %>%
-    mutate(Chi = ifelse(Unit == "Chicago", "yes", "no"))
-  
-  chart <- chart_data %>% 
-    ggplot(aes(x = Unit, y = total_category_spend/1000, fill = Chi)) +
-             geom_bar(stat = "identity") +
-             theme(axis.text.x = element_text(angle=65, vjust=0.6)) +
-             theme_minimal() +
-             labs(title = str_c("Total Spending on", category, sep = " "),
-                  y = "Total Spending (000s)") +
-             scale_fill_manual(values = c(yes = "#41B6E6", no = "#4D4D4D"), guide = F)
-  
-  print(chart)
-  print(str_c("The", category, "Chart is Done", sep = " "))
-  dev.off()
-}
-
-categories <- unique(vpr_grouped$Category)
-
-categories %>% walk(chart)
-		</code>
-		</pre>
-		</details>
 		</div>
 	</section>
 	
@@ -298,11 +235,14 @@ categories %>% walk(chart)
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Rhoncus magna</h3>
+					<h3>Mayoral Fellowship New Ideas Website</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>The Mayor’s Office Fellowship Program is the premier opportunity for bright, motivated, and civic-minded graduate students from all disciplines to apply their coursework to the greatest municipal laboratory in the world: the City of Chicago. As a Fellow, I was invited to present proposals for new City programs. The New Ideas Presentation is the culmination of this Fellowship, now in digital form.</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href="https://iph-97.github.io/newideas" class="button">Visit the Website</a></li>
+				</ul>
+				<ul class="actions">
+					<li><a href="https://github.com/iph-97/newideas" class="button">View the Project</a></li>
 				</ul>
 			</div>
 		</div>
