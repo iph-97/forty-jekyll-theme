@@ -247,6 +247,7 @@ gdf["score"] = gdf.apply(find_candidates, axis=1)
 			</div>
 		</div>
 	</section>
+	</section>
 
 <!-- Three -->
 <section id="three">
@@ -260,5 +261,4 @@ gdf["score"] = gdf.apply(find_candidates, axis=1)
 		</ul>
 	</div>
 </section>
-
 </div>
