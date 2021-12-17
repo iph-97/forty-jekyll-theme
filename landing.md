@@ -2,7 +2,7 @@
 title: Code Samples
 layout: landing
 description: 'Explore some sample data analytics work'
-image: assets/images/pic07.jpg
+image: assets/images/uchicago_gate.jpg
 nav-menu: true
 ---
 
@@ -213,7 +213,7 @@ gdf["score"] = gdf.apply(find_candidates, axis=1)
 <section id="two" class="spotlights">
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/citystreet.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -230,7 +230,7 @@ gdf["score"] = gdf.apply(find_candidates, axis=1)
 	
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
+			<img src="{% link assets/images/lakesideskyline.jpg %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
