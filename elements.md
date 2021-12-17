@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CV
-image: assets/images/pic01.jpg
+image: assets/images/chapelhill.jpeg
 nav-menu: true
 ---
 
