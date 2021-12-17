@@ -230,7 +230,7 @@ gdf["score"] = gdf.apply(find_candidates, axis=1)
 	
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/lakesideskyline.jpg %}" alt="" data-position="top center" />
+			<img src="{% link assets/images/river.jpg %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
