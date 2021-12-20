@@ -2,7 +2,7 @@
 title: Code Samples
 layout: landing
 description: 'Explore some sample data analytics work'
-image: assets/images/uchicago_gate.jpg
+image: personal_website/assets/images/uchicago_gate.jpg
 nav-menu: true
 ---
 
