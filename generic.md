@@ -2,7 +2,7 @@
 layout: post
 title: About Me
 description: Read my bio
-image: assets/images/kellersteps.jpg
+image: assets/images/pic11.jpg
 nav-menu: true
 ---
 
