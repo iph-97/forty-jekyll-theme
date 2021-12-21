@@ -20,17 +20,23 @@ nav-menu: true
 		<dl>
 	<dt>University of Chicago Harris School of Public Policy</dt>
 	<dd>
-		<p>Master of Public Policy</p>
-		<p>Certificate in Data Analytics</p>
+		<p>Master of Public Policy <br> Certificate in Data Analytics</p>
 	</dd>
 	<dt>University of North Carolina at Chapel Hill</dt>
 	<dd>
-		<p>Bachelor of Arts in Political Science</p>
-		<p>Second major in Peace, War and Defense with a Minor in Social and Economic Justice</p>
-		<p><strong>Honors Carolina | Phi Beta Kappa | Graduate with Highest Distinction</strong></p>
+		<p>Bachelor of Arts in Political Science<br>Second major in Peace, War and Defense with a Minor in Social and Economic Justice<br>Honors Carolina | Phi Beta Kappa | Graduate with Highest Distinction</p>
+	</dd>
+		<h2>Technical Experience</h2>
+		<p>Programming Languages: Advanced Python; R; SQL; JavaScript <br> Tools: D3.js; Git</p>
+		<dl>
+	<dt>Data and Programming for Public Policy Final Project (Fall 2021)</dt>
+	<dd>
+		<ul>
+			<li>Created an index in Python to score city-owned vacant lots in Chicago as potential candidates for green space conversion, including automating the data pipeline from the City Open Data API</li>
+			<li>Built a database in SQL to store vacant lot information and scores, allowing easier access for city officials</li>
+		</ul>
 	</dd>
 
 <ul class="actions">
-	<li><a href="Hirschy_Isabelle_Resume.pdf" class="button icon fa-download">Icon</a></li>
+	<li><a href="Hirschy_Isabelle_Resume.pdf" class="button icon fa-download">Download my Resume</a></li>
 </ul>			
-<object data="{{ iph-97.github.io }}/Hirschy_Isabelle_Resume.pdf" width="1000" height="1000" type="application/pdf"></object>
