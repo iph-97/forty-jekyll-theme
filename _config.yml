@@ -4,7 +4,7 @@ subtitle: Personal Website
 email: izziehirschy@gmail.com
 description: A Chicago-based policy wonk searching to use tech<br /> to better support communities.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: http://isabellehirschy.com # the base hostname & protocol for your site
+url: "isabellehirschy.com" # the base hostname & protocol for your site
 author: Izzie Hirschy
 street_address: 
 city: Chicago
