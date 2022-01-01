@@ -16,6 +16,9 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
+<ul class="actions">
+	<li><a href="Hirschy_Isabelle_Resume.pdf" class="button icon fa-download">Download my Resume</a></li>
+</ul>
 		<h2>Education</h2>
 		<dl>
 	<dt>University of Chicago Harris School of Public Policy</dt>
@@ -35,8 +38,23 @@ nav-menu: true
 			<li>Created an index in Python to score city-owned vacant lots in Chicago as potential candidates for green space conversion, including automating the data pipeline from the City Open Data API</li>
 			<li>Built a database in SQL to store vacant lot information and scores, allowing easier access for city officials</li>
 		</ul>
-	</dd>
+	</dd>		
+<h2>Work Experience</h2>
+		<dl>
+	<dt>City of chicago Office of the Mayor (October 2021 - Present)</dt>
+	<dd>
+		<ul>
+			<li>Managed stakeholder communication and a cross-functional team to develop the first employee-facing Digital Services Products</li>
+			<li>Conducted extensive data analysis in R (tidyverse) and built charts using ggplot2 to investigate local government violence prevention budgets
+</li>
+			<li>Drafted a new Data Equity Plan for the Department of Housing based on industry best practices</li>
+		</ul>
+	</dd>	
+		<d1>
+		<dt>City of Wind Desing (September 2021 - January 2022)</dt>
+		<dd>
+			<ul>
+				<li>Led the development of a UX Research Audit Service for B2B and SaaS products, including managing three researchers and two designers</li>
+			</ul>
+			</dd>
 
-<ul class="actions">
-	<li><a href="Hirschy_Isabelle_Resume.pdf" class="button icon fa-download">Download my Resume</a></li>
-</ul>			
