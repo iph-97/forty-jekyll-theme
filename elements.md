@@ -41,7 +41,7 @@ nav-menu: true
 	</dd>		
 <h2>Work Experience</h2>
 		<dl>
-	<dt>City of Chicago Office of the Mayor (October 2021 - Present)<br> <em>Mayoral Fellow</em></dt>
+	<dt>City of Chicago Office of the Mayor (June 2021 - Present)<br> <em>Mayoral Fellow</em></dt>
 	<dd>
 		<ul>
 			<li>Managed stakeholder communication and a cross-functional team to develop the first employee-facing Digital Services Products</li>
