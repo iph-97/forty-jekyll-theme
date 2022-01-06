@@ -41,7 +41,7 @@ nav-menu: true
 	</dd>		
 <h2>Work Experience</h2>
 		<dl>
-	<dt>City of chicago Office of the Mayor (October 2021 - Present)</dt>
+	<dt>City of Chicago Office of the Mayor (October 2021 - Present)\n <em>Mayoral Fellow</em></dt>
 	<dd>
 		<ul>
 			<li>Managed stakeholder communication and a cross-functional team to develop the first employee-facing Digital Services Products</li>
@@ -51,10 +51,54 @@ nav-menu: true
 		</ul>
 	</dd>	
 		<d1>
-		<dt>City of Wind Desing (September 2021 - January 2022)</dt>
+			<dt>City of Wind Design (September 2021 - January 2022) \n <em>Product Manager</em></dt>
 		<dd>
 			<ul>
 				<li>Led the development of a UX Research Audit Service for B2B and SaaS products, including managing three researchers and two designers</li>
 			</ul>
 			</dd>
-
+		<d1>
+		<dt>South Side Housing Data Initiative (November 2020 - June 2021) \n <em>Data Analyst</em>/dt>
+		<dd>
+			<ul>
+				<li>Conducted community-lead research on the state of affordable housing in South Shore, Chicago</li>
+				<li>Developed and ran scripts in R to produce reports on land vacancies, demographics, and property taxes</li>
+			</ul>
+			</dd>
+		<d1>
+		<dt>The Conservation Fund (August 2019 - August 2020) \n <em>Rural Strategist, Food and Policy</em>/dt>
+		<dd>
+			<ul>
+				<li>Generated digital resource guides and tool kits to support grassroots efforts in social entrepreneurship</li>
+				<li>Provided boutique consulting focused on community development for rural nonprofits and local governments</li>
+				<li>Collaborated with partner organizations to host trainings on program development and evaluation</li>
+			</ul>
+			</dd>
+		<d1>
+		<dt>Appalachia Service Project (2018 - 2019)\n <em>Center Director</em>/dt>
+		<dd>
+			<ul>
+				<li>Partnered with a local nonprofit to leverage grant funding worth $13,616</li>
+				<li>Collaborated with a new nonprofit startup to provide handicap accessible bathrooms worth $4,750</li>
+				<li>Fundraised $22,318 to supplement a budget of over $40,000 to complete emergency home repair projects </li>
+				<li>Directly managed three staff members independently, including giving performance feedback and conducting evaluations</li>			
+			</ul>
+			</dd>
+		<d1>
+		<dt>Appalachia Service Project (2016 - 2017)\n <em>Volunteer Coordinator</em>/dt>
+		<dd>
+			<ul>
+				<li>Created, filmed, and edited a new weekly video program to increase engagement with online material</li>
+				<li>Supervised repairs done by 120 volunteers for 19 homes and managed social media presence</li>		
+			</ul>
+			</dd>
+<h2>Leadership and Involvement</h2>
+		<dt>Harris School of Public Policy Student Recruitment and Global Outreach (September 2020 - Present) \n <em>Graduate Assistant</em>/dt>
+		<dd>
+			</dd>		
+		<dt>Harris Student Government (April 2021 - Present) \n <em>Social Chair</em>/dt>
+		<dd>
+			</dd>		
+		<dt>Harris Community Action (January 2021 - April 2021) \n <em>Fellow</em>/dt>
+		<dd>
+			</dd>	
