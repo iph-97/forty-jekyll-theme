@@ -3,13 +3,13 @@ title: Isabelle Hirschy
 subtitle: Personal Website
 email: izziehirschy@gmail.com
 description: A Chicago-based policy wonk searching to use tech<br /> to better support communities.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl:  # the subpath of your site, e.g. /blog
 url: isabellehirschy.com # the base hostname & protocol for your site
 author: Izzie Hirschy
 street_address: 
 city: Chicago
 state: IL
-zip_code: 60637
+zip_code: 
 country: United States of America
 phone:
 
