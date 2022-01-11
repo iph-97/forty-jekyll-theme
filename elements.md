@@ -19,16 +19,6 @@ nav-menu: true
 <ul class="actions">
 	<li><a href="Hirschy_Isabelle_Resume.pdf" class="button icon fa-download">Download my Resume</a></li>
 </ul>
-		<h2>Education</h2>
-		<dl>
-	<dt>University of Chicago Harris School of Public Policy</dt>
-	<dd>
-		<p>Master of Public Policy <br> Certificate in Data Analytics</p>
-	</dd>
-	<dt>University of North Carolina at Chapel Hill</dt>
-	<dd>
-		<p>Bachelor of Arts in Political Science<br>Second major in Peace, War and Defense with a Minor in Social and Economic Justice<br>Honors Carolina | Phi Beta Kappa | Graduate with Highest Distinction</p>
-	</dd>
 		<h2>Technical Experience</h2>
 		<p>Programming Languages: Advanced Python; R; SQL; JavaScript <br> Tools: D3.js; Git</p>
 		<dl>
@@ -92,7 +82,16 @@ nav-menu: true
 				<li>Supervised repairs done by 120 volunteers for 19 homes and managed social media presence</li>		
 			</ul>
 			</dd>
-<h2>Leadership and Involvement</h2>
+		<h2>Education</h2>
+		<dl>
+	<dt>University of Chicago Harris School of Public Policy</dt>
+	<dd>
+		<p>Master of Public Policy <br> Certificate in Data Analytics</p>
+	</dd>
+	<dt>University of North Carolina at Chapel Hill</dt>
+	<dd>
+		<p>Bachelor of Arts in Political Science<br>Second major in Peace, War and Defense with a Minor in Social and Economic Justice<br>Honors Carolina | Phi Beta Kappa | Graduate with Highest Distinction</p>
+	</dd><h2>Leadership and Involvement</h2>
 		<dt>Harris School of Public Policy Student Recruitment and Global Outreach (September 2020 - Present) <br> <em>Graduate Assistant</em></dt>
 		<dd>
 			</dd>		
