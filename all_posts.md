@@ -1,12 +1,12 @@
 ---
 layout: allposts
-title: Selected Writings
-landing-title: 'Selected Writings'
-nav-menu: true
-description: Read some of my research
+title: Blog
+landing-title: 'Blog'
+nav-menu: false
+description: Read some of my thoughts and ideas
 image: assets/images/nc_road.jpeg
 author: null
-show_tile: true
+show_tile: false
 ---
 
 <h1>Selected Writings</h1>
