@@ -9,4 +9,4 @@ author: null
 show_tile: false
 ---
 
-<h1>Selected Writings</h1>
+<h1>My Personal Blog</h1>
