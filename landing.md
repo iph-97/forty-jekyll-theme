@@ -4,6 +4,7 @@ layout: landing
 description: 'Explore some sample data analytics work'
 image: assets/images/uchicago_gate.jpeg
 nav-menu: true
+show_tile: false
 ---
 
 <!-- Main -->
