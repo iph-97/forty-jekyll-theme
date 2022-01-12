@@ -1,10 +1,10 @@
 ---
 layout: allposts
-title: All posts
-landing-title: 'All posts'
+title: Selected Writings
+landing-title: 'Selected Writings'
 nav-menu: true
-description: null
-image: null
+description: Read some of my research
+image: assets/images/nc_road.jpeg
 author: null
 show_tile: true
 ---
