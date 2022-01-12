@@ -3,7 +3,7 @@ layout: page
 title: CV
 image: assets/images/chapelhill.jpeg
 nav-menu: true
-show_tile: false
+show_tile: true
 ---
 
 <!-- Main -->
