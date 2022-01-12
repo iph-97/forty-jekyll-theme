@@ -4,6 +4,7 @@ title: About Me
 description: Read my bio
 image: assets/images/keller.jpg
 nav-menu: true
+show_tile: false
 ---
 
 A born and bred Tar Heel, I studied Political Science at the University of North Carolina at Chapel Hill. During the summers, I worked for a nonprofit called the Appalachia Service Project, where I coordinated emergency home repair services for families in Central Appalachia. We worked on the household level, solving structural problems for families that were generational victims of systemic neglect. I had a lot of trouble reconciling this experience of direct service provision with my formal education. Political Science had a distinct focus on the "big picture," which seemed to miss many of the nuances that affected my summer clients. 
